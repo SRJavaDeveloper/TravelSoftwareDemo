@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.apollotech.example</groupId>
+  <artifactId>TravelSoftwareDemo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+    
+    	<!-- For JSON parsing. -->
+		<dependency>
+		    <groupId>com.googlecode.json-simple</groupId>
+		    <artifactId>json-simple</artifactId>
+		    <version>1.1.1</version>
+		</dependency>
+
+		<!-- For google protocol buffers / serialization. -->	
+		<dependency>
+		    <groupId>com.google.protobuf</groupId>
+		    <artifactId>protobuf-java</artifactId>
+		    <version>4.27.3</version>
+		</dependency>
+		
+		<!-- For JavaFX. -->
+		<dependency>
+		    <groupId>org.openjfx</groupId>
+		    <artifactId>javafx-controls</artifactId>
+		    <version>21.0.4</version>
+	  </dependency>
+	  
+	  <!-- For JSON serialization.-->
+		<dependency>
+        	<groupId>com.google.code.gson</groupId>
+       	 	<artifactId>gson</artifactId>
+    	    <version>2.10.1</version>
+	    </dependency>
+		
+		<!-- Mockito dependencies. -->
+		<dependency>
+		     <groupId>org.mockito</groupId>
+		     <artifactId>mockito-core</artifactId>
+		     <version>2.19.0</version>
+		     <scope>test</scope>
+		</dependency>
+		<dependency>
+		     <groupId>org.mockito</groupId>
+		     <artifactId>mockito-junit-jupiter</artifactId>
+		     <version>2.19.0</version>
+		     <scope>test</scope>
+		</dependency>
+
+  </dependencies>
+  
+</project>
